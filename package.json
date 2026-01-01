@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "dev-cli dev",
+    "build": "dev-cli build",
+    "preview": "dev-cli preview",
+    "deploy": "dev-cli deploy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.17.0",
-  "dependencies": {
+  "devDependencies": {
     "textlint": "^15.5.0"
+  },
+  "dependencies": {
+    "@karukan029/dev": "0.0.1-alpha.20"
   }
 }
